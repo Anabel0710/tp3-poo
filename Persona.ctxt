@@ -1,0 +1,30 @@
+#BlueJ class context
+#Sun Aug 16 03:01:28 ART 2026
+comment0.target=Persona
+comment0.text=\r\n Clase Persona que representa una persona con DNI, nombre, apellido y a\u00F1o de nacimiento.\r\n Permite calcular la edad y mostrar los datos.\r\n @author (Rocio Anabel Gonzalez y Rodriguez Mercedes Antonella) \r\n @version (a version number or a date)\r\n
+comment1.params=p_dni p_nombre p_apellido p_anio
+comment1.target=Persona(int, java.lang.String, java.lang.String, int)
+comment1.text=Constructor de Persona
+comment10.target=int edad()
+comment10.text=Calcula la edad de la persona
+comment11.target=java.lang.String nomYApe()
+comment11.text=Devuelve nombre y apellido juntos
+comment12.target=java.lang.String apeYNom()
+comment12.text=Devuelve apellido y nombre juntos
+comment13.target=void mostrar()
+comment13.text=Muestra los datos de la persona
+comment2.target=int getDNI()
+comment2.text=Getters
+comment3.target=java.lang.String getNombre()
+comment4.target=java.lang.String getApellido()
+comment5.target=int getAnioNacimiento()
+comment6.params=p_dni
+comment6.target=void setDNI(int)
+comment6.text=Setters privados
+comment7.params=p_nombre
+comment7.target=void setNombre(java.lang.String)
+comment8.params=p_apellido
+comment8.target=void setApellido(java.lang.String)
+comment9.params=p_anio
+comment9.target=void setAnioNacimiento(int)
+numComments=14
