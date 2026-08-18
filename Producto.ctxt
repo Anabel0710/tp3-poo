@@ -1,5 +1,5 @@
 #BlueJ class context
-#Sun Aug 16 03:52:19 ART 2026
+#Mon Aug 17 11:19:19 ART 2026
 comment0.target=Producto
 comment0.text=\r\n Clase Producto que representa un producto comercializado por una droguer\u00EDa.\r\n Contiene como colaborador un objeto Laboratorio.\r\n Permite calcular precios, ajustar stock y mostrar datos.\r\n \r\n @author (Rocio Anabel Gonzalez y Rodriguez Mercedes Antonella) \r\n @version 1.0\r\n
 comment1.params=p_codigo p_rubro p_desc p_costo p_porcPtoRepo p_existMinima p_lab

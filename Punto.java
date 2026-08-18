@@ -29,6 +29,13 @@ public class Punto {
     /** Setters privados */
     private void setX(double p_x) { this.x = p_x; }
     private void setY(double p_y) { this.y = p_y; }
+    
+    /**DistanciaA*/
+    public double distanciaA(Punto p_ptoDistante){
+        double dx = p_ptoDistante.getX() -this.getX();
+        double dy = p_ptoDistante.getY() - this.getY();
+        return Math.sqrt(dx * dx + dy * dy);
+    }
 
     /** Desplaza el punto */
     public void desplazar(double p_dx, double p_dy) {

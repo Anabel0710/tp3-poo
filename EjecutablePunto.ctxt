@@ -1,0 +1,7 @@
+#BlueJ class context
+#Tue Aug 18 15:29:56 ART 2026
+comment0.target=EjecutablePunto
+comment0.text=\r\n Clase ejecutable para probar la clase Punto.\r\n Crea un objeto Punto, lo desplaza y muestra sus coordenadas.\r\n \r\n @author (Rocio Anabel Gonzalez y Rodriguez Mercedes Antonella)\r\n @version 1.0\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+numComments=2

@@ -41,8 +41,14 @@ public class Producto {
     }
 
     /** Getters */
-    public int getCodigo() { return this.codigo; }
-    public String getRubro() { return this.rubro; }
+    public int getCodigo() { 
+        return this.codigo; 
+    }
+    
+    public String getRubro() { 
+        return this.rubro;
+    }
+    
     public String getDescripcion() { return this.descripcion; }
     public double getCosto() { return this.costo; }
     public int getStock() { return this.stock; }
@@ -51,13 +57,32 @@ public class Producto {
     public Laboratorio getLaboratorio() { return this.laboratorio; }
 
     /** Setters privados */
-    private void setCodigo(int p_codigo) { this.codigo = p_codigo; }
-    private void setRubro(String p_rubro) { this.rubro = p_rubro; }
-    private void setDescripcion(String p_desc) { this.descripcion = p_desc; }
-    private void setCosto(double p_costo) { this.costo = p_costo; }
-    private void setPorcPtoRepo(double p_porcPtoRepo) { this.porcPtoRepo = p_porcPtoRepo; }
-    private void setExistMinima(int p_existMinima) { this.existMinima = p_existMinima; }
-    private void setLaboratorio(Laboratorio p_lab) { this.laboratorio = p_lab; }
+    private void setCodigo(int p_codigo) { 
+        this.codigo = p_codigo; 
+    }
+    
+    private void setRubro(String p_rubro) { 
+        this.rubro = p_rubro; 
+    }
+    
+    private void setDescripcion(String p_desc) { 
+        this.descripcion = p_desc; 
+    }
+    
+    private void setCosto(double p_costo) { 
+        this.costo = p_costo; 
+    }
+    private void setPorcPtoRepo(double p_porcPtoRepo) { 
+        this.porcPtoRepo = p_porcPtoRepo; 
+    }
+    
+    private void setExistMinima(int p_existMinima) { 
+        this.existMinima = p_existMinima;
+    }
+    
+    private void setLaboratorio(Laboratorio p_lab) { 
+        this.laboratorio = p_lab; 
+    }
 
     /** Ajusta el stock (puede sumar o restar) */
     public void ajuste(int p_cantidad) {

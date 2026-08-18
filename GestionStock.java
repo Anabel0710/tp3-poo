@@ -6,12 +6,13 @@
  * @version 1.0
  */
 public class GestionStock {
-    public static void main(String[] args) {
+    public static void main() {
         // Crear laboratorio
         Laboratorio lab1 = new Laboratorio("Colgate S.A.", "Scalabrini Ortiz 5524", "54-11-4239-8447");
-
+        
         // Crear producto asociado al laboratorio
         Producto prod1 = new Producto(101, "Perfumería", "Jabón Deluxe", 5.25, 10.0, 50, lab1);
+        prod1.mostrar();
 
         // Ajustar stock inicial (500 unidades por promoción)
         prod1.ajuste(500);

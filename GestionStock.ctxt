@@ -1,7 +1,6 @@
 #BlueJ class context
-#Sun Aug 16 03:52:19 ART 2026
+#Mon Aug 17 11:19:19 ART 2026
 comment0.target=GestionStock
 comment0.text=\r\n Clase ejecutable para gestionar stock de productos.\r\n Instancia un producto, ajusta stock y muestra resultados.\r\n \r\n @author (Rocio Anabel Gonzalez y Rodriguez Mercedes Antonella) \r\n @version 1.0\r\n
-comment1.params=args
-comment1.target=void main(java.lang.String[])
+comment1.target=void main()
 numComments=2
