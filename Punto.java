@@ -34,7 +34,7 @@ public class Punto {
     public double distanciaA(Punto p_ptoDistante){
         double dx = p_ptoDistante.getX() -this.getX();
         double dy = p_ptoDistante.getY() - this.getY();
-        return Math.sqrt(dx * dx + dy * dy);
+        return Math.sqrt(Math.pow(dx, 2)+ Math.pow(dy, 2));
     }
 
     /** Desplaza el punto */

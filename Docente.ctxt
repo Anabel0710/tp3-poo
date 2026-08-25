@@ -1,0 +1,23 @@
+#BlueJ class context
+#Mon Aug 24 11:51:42 ART 2026
+comment0.target=Docente
+comment0.text=\r\n Representa a un docente de una escuela.\r\n Almacena su nombre, grado, sueldo b\u00E1sico y asignaci\u00F3n familiar.\r\n\r\n @author Rocio Anabel Gonzalez y Rodriguez Mercedes Antonella\r\n @version 1.0 - 23/08/2026\r\n
+comment1.params=p_nombre p_grado p_sueldoBasico p_asignacionFamiliar
+comment1.target=Docente(java.lang.String, java.lang.String, double, double)
+comment1.text=\r\n Construye un docente con todos sus datos.\r\n\r\n @param p_nombre nombre del docente\r\n @param p_grado grado a cargo del docente\r\n @param p_sueldoBasico sueldo b\u00E1sico del docente\r\n @param p_asignacionFamiliar asignaci\u00F3n familiar del docente\r\n
+comment10.target=double calcularSueldo()
+comment10.text=\r\n Calcula el sueldo total del docente sumando el sueldo\r\n b\u00E1sico y la asignaci\u00F3n familiar.\r\n\r\n @return sueldo total del docente\r\n
+comment2.params=p_nombre
+comment2.target=void setNombre(java.lang.String)
+comment3.params=p_grado
+comment3.target=void setGrado(java.lang.String)
+comment4.params=p_sueldoBasico
+comment4.target=void setSueldoBasico(double)
+comment5.params=p_asignacionFamiliar
+comment5.target=void setAsignacionFamiliar(double)
+comment6.target=java.lang.String getNombre()
+comment6.text=Getters
+comment7.target=java.lang.String getGrado()
+comment8.target=double getSueldoBasico()
+comment9.target=double getAsignacionFamiliar()
+numComments=11

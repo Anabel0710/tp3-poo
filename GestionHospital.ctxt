@@ -1,0 +1,8 @@
+#BlueJ class context
+#Sun Aug 23 18:00:03 ART 2026
+comment0.target=GestionHospital
+comment0.text=\r\n Clase ejecutable que instancia un hospital, un paciente\r\n y sus correspondientes localidades.\r\n Muestra por pantalla los datos filiatorios del paciente.\r\n\r\n @author Rocio Anabel Gonzalez y Rodriguez Mercedes Antonella\r\n @version 1.0 - 23/08/2026\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+comment1.text=\r\n Punto de entrada del programa.\r\n\r\n @param args argumentos recibidos desde la l\u00EDnea de comandos\r\n
+numComments=2

@@ -1,5 +1,5 @@
 #BlueJ class context
-#Mon Aug 17 12:06:58 ART 2026
+#Mon Aug 24 17:59:43 ART 2026
 comment0.target=Punto
 comment0.text=\r\n Clase Punto que representa un punto en el plano cartesiano.\r\n Permite desplazarlo y mostrar sus coordenadas.\r\n \r\n @author (Rocio Anabel Gonzalez y Rodriguez Mercedes Antonella) \r\n @version 1.0\r\n
 comment1.target=Punto()

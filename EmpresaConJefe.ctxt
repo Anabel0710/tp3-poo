@@ -1,0 +1,7 @@
+#BlueJ class context
+#Mon Aug 24 11:00:52 ART 2026
+comment0.target=EmpresaConJefe
+comment0.text=\r\n Clase ejecutable que crea una estructura jer\u00E1rquica\r\n formada por un Gerente General y un empleado con jefe.\r\n Emite un permiso de salida firmado por el jefe cuando\r\n el empleado cumple un aniversario en la empresa.\r\n\r\n @author Rocio Anabel Gonzalez y Rodriguez Mercedes Antonella\r\n @version 2.0 - 23/08/2026\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+numComments=2

@@ -1,0 +1,37 @@
+#BlueJ class context
+#Mon Aug 24 17:59:43 ART 2026
+comment0.target=Rectangulo
+comment0.text=\r\n Clase rectangulo que representa un rectangulo en el plano cartesiano.\r\n Contiene como colaborador un objeto Punto(su origen)\r\n @author (your name) \r\n @version (a version number or a date)\r\n
+comment1.params=p_origen p_ancho p_alto
+comment1.target=Rectangulo(Punto, double, double)
+comment1.text=\r\n Constructor que recibe el origen y dimensiones\r\n@param p_origen Punto que representa la esquina inferior izquierda.\r\n@param p_ancho ancho del rectangulo.\r\n@param p_alto alto del rectangulo.\r\n
+comment10.target=double perimetro()
+comment10.text=\r\n Calcular el perimetro del rectangulo\r\n Formula\: 2*(ancho + alto)\r\n
+comment11.target=double superficie()
+comment11.text=\r\n Calcular la superficie del rectangulo\r\n Formula\: ancho * alto\r\n
+comment12.target=void caracteristicas()
+comment12.text=Mostrar caracteristicas del rectangulo
+comment13.params=otroRectangulo
+comment13.target=double distancia(Rectangulo)
+comment13.text=Calcular distancia entre dos rectangulos(Diferencia entre origenes)
+comment14.params=otroRectangulo
+comment14.target=Rectangulo elMayor(Rectangulo)
+comment14.text=Devuelve el rectangulo de mayor superficie
+comment2.params=p_ancho p_alto
+comment2.target=Rectangulo(double, double)
+comment2.text=\r\n Constructor que recibe solo dimensiones\r\n El origen se fija en (0,0)\r\n
+comment3.params=p_origen
+comment3.target=void setOrigen(Punto)
+comment3.text=Setters
+comment4.params=p_ancho
+comment4.target=void setAncho(double)
+comment5.params=p_alto
+comment5.target=void setAlto(double)
+comment6.target=Punto getOrigen()
+comment6.text=Getters
+comment7.target=double getAncho()
+comment8.target=double getAlto()
+comment9.params=p_dx p_dy
+comment9.target=void desplazar(double, double)
+comment9.text=\ \r\n Desplazar el rectangulo moviendo su origen\r\n @param dx desplazamiento en eje X.\r\n @param dy desplazamiento en eje Y.\r\n
+numComments=15

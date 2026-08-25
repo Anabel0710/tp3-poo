@@ -1,0 +1,22 @@
+#BlueJ class context
+#Mon Aug 24 17:46:23 ART 2026
+comment0.target=Escuela
+comment0.text=\r\n Representa una escuela que puede emitir el recibo de sueldo\r\n de un docente.\r\n\r\n @author Rocio Anabel Gonzalez y Rodriguez Mercedes Antonella\r\n @version 1.0 - 23/08/2026\r\n
+comment1.params=p_nombre p_domicilio p_director
+comment1.target=Escuela(java.lang.String, java.lang.String, java.lang.String)
+comment1.text=Construye una escuela con su nombre, domicilio y director.
+comment2.params=p_nombre
+comment2.target=void setNombre(java.lang.String)
+comment2.text=Setters privados
+comment3.params=p_domicilio
+comment3.target=void setDomicilio(java.lang.String)
+comment4.params=p_director
+comment4.target=void setDirector(java.lang.String)
+comment5.target=java.lang.String getNombre()
+comment5.text=Getters
+comment6.target=java.lang.String getDomicilio()
+comment7.target=java.lang.String getDirector()
+comment8.params=p_docente
+comment8.target=void imprimirRecibo(Docente)
+comment8.text=\r\n Imprime el recibo de sueldo del docente recibido.\r\n\r\n @param p_docente docente para el cual se emitir\u00E1 el recibo\r\n
+numComments=9

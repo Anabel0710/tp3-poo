@@ -1,0 +1,29 @@
+#BlueJ class context
+#Sun Aug 23 17:58:09 ART 2026
+comment0.target=Paciente
+comment0.text=\r\n Representa un paciente de un hospital.\r\n Almacena sus datos filiatorios y conoce la localidad donde\r\n naci\u00F3 y la localidad donde vive actualmente.\r\n\r\n @author Rocio Anabel Gonzalez y Rodriguez Mercedes Antonella\r\n @version 1.0 - 23/08/2026\r\n
+comment1.params=p_historia p_nombre p_domicilio p_localidadNacido p_localidadVive
+comment1.target=Paciente(int, java.lang.String, java.lang.String, Localidad, Localidad)
+comment1.text=\r\n Construye un paciente con sus datos filiatorios,\r\n su localidad de nacimiento y su localidad de residencia.\r\n\r\n @param p_historia n\u00FAmero de historia cl\u00EDnica\r\n @param p_nombre nombre completo del paciente\r\n @param p_domicilio domicilio actual del paciente\r\n @param p_localidadNacido localidad donde naci\u00F3\r\n @param p_localidadVive localidad donde vive\r\n
+comment10.params=p_nacido
+comment10.target=void setNacido(Localidad)
+comment11.params=p_vive
+comment11.target=void setVive(Localidad)
+comment12.target=void mostrarDatosPantalla()
+comment12.text=\r\n Muestra por pantalla los datos filiatorios del paciente\r\n y de la localidad donde vive.\r\n
+comment13.target=java.lang.String cadenaDeDatos()
+comment13.text=\r\n Devuelve los datos filiatorios del paciente en una cadena.\r\n\r\n @return datos del paciente y de su localidad de residencia\r\n
+comment2.target=int getHistoriaClinica()
+comment2.text=Getters
+comment3.target=java.lang.String getNombre()
+comment4.target=java.lang.String getDomicilio()
+comment5.target=Localidad getNacido()
+comment6.target=Localidad getVive()
+comment7.params=p_historia
+comment7.target=void setHistoriaClinica(int)
+comment7.text=Setters
+comment8.params=p_nombre
+comment8.target=void setNombre(java.lang.String)
+comment9.params=p_domicilio
+comment9.target=void setDomicilio(java.lang.String)
+numComments=14

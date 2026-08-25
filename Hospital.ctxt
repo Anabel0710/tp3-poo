@@ -1,0 +1,19 @@
+#BlueJ class context
+#Sun Aug 23 17:59:11 ART 2026
+comment0.target=Hospital
+comment0.text=\r\n Representa un hospital p\u00FAblico.\r\n Permite consultar los datos filiatorios de un paciente.\r\n\r\n @author Rocio Anabel Gonzalez y Rodriguez Mercedes Antonella\r\n @version 1.0 - 23/08/2026\r\n
+comment1.params=p_nombreHospital p_nombreDirector
+comment1.target=Hospital(java.lang.String, java.lang.String)
+comment1.text=\r\n Construye un hospital con su nombre y el nombre del director.\r\n\r\n @param p_nombreHospital nombre del hospital\r\n @param p_nombreDirector nombre del director\r\n
+comment2.target=java.lang.String getNombreHospital()
+comment2.text=Getters
+comment3.target=java.lang.String getNombreDirector()
+comment4.params=p_nombreHospital
+comment4.target=void setNombreHospital(java.lang.String)
+comment4.text=Setters
+comment5.params=p_nombreDirector
+comment5.target=void setNombreDirector(java.lang.String)
+comment6.params=p_paciente
+comment6.target=void consultaDatosFiliatorios(Paciente)
+comment6.text=\r\n Muestra los datos del hospital y los datos filiatorios\r\n del paciente recibido como par\u00E1metro.\r\n\r\n @param p_paciente paciente cuyos datos se consultar\u00E1n\r\n
+numComments=7
