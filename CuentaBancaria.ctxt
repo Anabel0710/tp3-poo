@@ -1,5 +1,5 @@
 #BlueJ class context
-#Tue Aug 25 17:54:56 ART 2026
+#Tue Aug 25 18:17:20 ART 2026
 comment0.target=CuentaBancaria
 comment0.text=\r\n Representa una cuenta bancaria perteneciente a una persona.\r\n Permite depositar y extraer dinero, consultar el saldo y mostrar\r\n la informaci\u00F3n de la cuenta y de su titular.\r\n\r\n La clase CuentaBancaria conoce a un objeto Persona mediante\r\n una variable de instancia llamada titular.\r\n \r\n @author Rocio Anabel Gonzalez y Rodriguez Mercedes Antonella\r\n @version 1.0 - 23/08/2026\r\n
 comment1.params=p_nroCuenta p_titular

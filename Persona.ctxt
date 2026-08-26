@@ -1,5 +1,5 @@
 #BlueJ class context
-#Tue Aug 25 18:03:56 ART 2026
+#Tue Aug 25 18:17:20 ART 2026
 comment0.target=Persona
 comment0.text=\r\n Representa una persona con DNI, nombre, apellido y fecha\r\n de nacimiento.\r\n Permite calcular la edad, mostrar sus datos y determinar\r\n si est\u00E1 cumpliendo a\u00F1os.\r\n\r\n @author Rocio Anabel Gonzalez y Rodriguez Mercedes Antonella\r\n @version 2.0 - 23/08/2026\r\n
 comment1.params=p_dni p_nombre p_apellido p_anio

@@ -1,5 +1,5 @@
 #BlueJ class context
-#Tue Aug 25 17:54:56 ART 2026
+#Tue Aug 25 18:17:20 ART 2026
 comment0.target=GestionCuentaBancaria
 comment0.text=\r\n Ejecutable para probar la clase CuentaBancaria.\r\n Crea una persona y su cuenta bancaria, realiza un dep\u00F3sito\r\n y una extracci\u00F3n y muestra los resultados.\r\n\r\n @author Rocio Anabel Gonzalez y Rodriguez Mercedes Antonella\r\n @version 1.0 - 23/08/2026\r\n
 comment1.params=args

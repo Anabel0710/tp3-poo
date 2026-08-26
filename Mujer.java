@@ -45,16 +45,10 @@ public class Mujer
         this.setNombre(p_nombre);
         this.setApellido(p_apellido);
         this.setEdad(p_edad);
-        this.setEstadoCivil("Casada");
-        this.setEsposo(p_esposo);
+        this.setEstadoCivil("Soltera");
+        this.setEsposo(null);
+        this.casarseCon(p_esposo);
     }
-
-    /** Getters */
-    public String getNombre() {return this.nombre;} //Devuelve el nombre de la mujer.
-    public String getApellido() {return this.apellido;} //Devuelve el apellido de la mujer.
-    public int getEdad() {return this.edad;} //Devuelve la edad de la mujer.
-    public String getEstadoCivil() {return this.estadoCivil;} //Devuelve el estado civil.
-    public Hombre getEsposo() {return this.esposo;} //Devuelve el esposo de la mujer.
 
     /** Setters */
     private void setNombre(String p_nombre) {this.nombre = p_nombre;} //Asigna el nombre de la mujer.
@@ -62,6 +56,13 @@ public class Mujer
     private void setEdad(int p_edad) {this.edad = p_edad;} //Asigna la edad de la mujer.
     private void setEstadoCivil(String p_estadoCivil) {this.estadoCivil = p_estadoCivil;} //Asigna el estado civil.
     private void setEsposo(Hombre p_esposo) {this.esposo = p_esposo;} //Asigna el esposo de la mujer.
+    
+    /** Getters */
+    public String getNombre() {return this.nombre;} //Devuelve el nombre de la mujer.
+    public String getApellido() {return this.apellido;} //Devuelve el apellido de la mujer.
+    public int getEdad() {return this.edad;} //Devuelve la edad de la mujer.
+    public String getEstadoCivil() {return this.estadoCivil;} //Devuelve el estado civil.
+    public Hombre getEsposo() {return this.esposo;} //Devuelve el esposo de la mujer.
 
     /**
      * Casa a la mujer con el hombre recibido si ninguno de los dos esta casado. 
@@ -93,10 +94,19 @@ public class Mujer
      */
     public void divorcio()
     {
+        Hombre esposoAnterior = this.getEsposo();
         if(this.getEsposo() != null){
+            /**Se guarda temporalmente al esposo antes de eliminar la referencia*/
+            this.setEsposo(null);
+            this.setEstadoCivil("Divorciada");
+        } 
+        /**Se actualiza tambien el estado del esposo*/
+        if(esposoAnterior.getEsposa() == this){
+            esposoAnterior.divorcio();
         }
-        this.setEsposo(null);
-        this.setEstadoCivil("Divorciada");
+        else{
+            System.out.println("No se puede divorciar porque no esta casada");
+        }
     }
 
     /**
@@ -126,10 +136,11 @@ public class Mujer
      */
     public void casadaCon()
     {
-        System.out.println(
-            this.datos()
-            + " está casada con "
-            + this.getEsposo().datos()
-        );
+        if (this.getEsposo() != null) {
+            System.out.println(this.datos() + " está casada con " + this.getEsposo().datos());
+        }
+        else{
+            System.out.println(this.datos() + " No tiene esposo actualmente" );
+        }
     }
 }
