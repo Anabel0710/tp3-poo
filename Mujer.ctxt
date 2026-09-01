@@ -1,5 +1,5 @@
 #BlueJ class context
-#Wed Aug 26 18:24:02 ART 2026
+#Tue Sep 01 12:05:36 ART 2026
 comment0.target=Mujer
 comment0.text=\r\n Representa a una mujer y permite administrar su estado civil\r\n y su relaci\u00F3n con un esposo.\r\n\r\n @author Rocio Anabel Gonzalez y Rodriguez Mercedes Antonella\r\n @version 1.0 - 23/08/2026\r\n
 comment1.params=p_nombre p_apellido p_edad
@@ -10,18 +10,18 @@ comment11.target=java.lang.String getEstadoCivil()
 comment12.target=Hombre getEsposo()
 comment13.params=p_hombre
 comment13.target=void casarseCon(Hombre)
-comment13.text=\r\n Casa a la mujer con el hombre recibido si ninguno de los dos esta casado. \r\n Establece el doble conocimiento entre ambos objetos\r\n Asigna el esposo y cambia su estado civil a Casada.\r\n\r\n @param p_hombre hombre con el que se desea casar\r\n
+comment13.text=\r\n Casa a la mujer con el hombre recibido si ninguno de los dos est\u00E1 casado.\r\n Establece el doble conocimiento entre ambos objetos y cambia su estado civil a Casada.\r\n\r\n @param p_hombre hombre con el que se desea casar\r\n
 comment14.target=void divorcio()
-comment14.text=\r\n Divorcia a la mujer.\r\n Elimina la referencia al esposo y cambia su estado\r\n civil a Divorciada.\r\n
+comment14.text=\r\n Divorcia a la mujer.\r\n Elimina la referencia al esposo y cambia su estado civil a Divorciada.\r\n
 comment15.target=java.lang.String datos()
 comment15.text=\r\n Devuelve el nombre, apellido y edad de la mujer.\r\n\r\n @return datos personales de la mujer\r\n
 comment16.target=void mostrarEstadoCivil()
 comment16.text=\r\n Muestra los datos personales y el estado civil.\r\n
 comment17.target=void casadaCon()
-comment17.text=\r\n Muestra los datos de la mujer y de su esposo.\r\n
+comment17.text=\r\n Muestra los datos de la mujer y de su esposo si lo tiene.\r\n
 comment2.params=p_nombre p_apellido p_edad p_esposo
 comment2.target=Mujer(java.lang.String, java.lang.String, int, Hombre)
-comment2.text=\r\n Construye una mujer casada con el hombre recibido.\r\n Su estado civil inicial es Casada.\r\n\r\n @param p_nombre nombre de la mujer\r\n @param p_apellido apellido de la mujer\r\n @param p_edad edad de la mujer\r\n @param p_esposo hombre que ser\u00E1 su esposo\r\n
+comment2.text=\r\n Construye una mujer casada con el hombre recibido.\r\n\r\n @param p_nombre nombre de la mujer\r\n @param p_apellido apellido de la mujer\r\n @param p_edad edad de la mujer\r\n @param p_esposo hombre que ser\u00E1 su esposo\r\n
 comment3.params=p_nombre
 comment3.target=void setNombre(java.lang.String)
 comment3.text=Setters

@@ -1,5 +1,5 @@
 #BlueJ class context
-#Sun Aug 16 03:07:08 ART 2026
+#Tue Sep 01 12:26:58 ART 2026
 comment0.target=Laboratorio
 comment0.text=\r\n Clase Laboratorio que representa un laboratorio farmac\u00E9utico.\r\n Permite mostrar datos y modificar reglas de negocio como compra m\u00EDnima y d\u00EDa de entrega.\r\n \r\n @author (Rocio Anabel Gonzalez y Rodriguez Mercedes Antonella) \r\n @version (a version number or a date)\r\n
 comment1.params=p_nombre p_domicilio p_telefono p_compraMin p_diaEnt

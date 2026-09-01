@@ -1,7 +1,7 @@
 #BlueJ class context
-#Wed Aug 26 18:24:12 ART 2026
+#Tue Sep 01 12:05:36 ART 2026
 comment0.target=RegistroCivil
-comment0.text=\r\n Clase ejecutable que administra el matrimonio y el divorcio\r\n entre un hombre y una mujer\r\n \r\n Permite consultar el estado civil, celebrar el matrimonio,\r\n emitir el certificado y realizar el divorcio\r\n\r\n @author Rocio Anabel Gonzalez y Rodriguez Mercedes Antonella\r\n @version 2.0 - 26/08/2026\r\n
+comment0.text=\r\n Clase ejecutable que administra el matrimonio y el divorcio\r\n entre una mujer y dos opciones de hombres.\r\n\r\n Permite consultar el estado civil, celebrar el matrimonio,\r\n emitir el certificado y realizar el divorcio.\r\n\r\n @author Rocio Anabel Gonzalez y Rodriguez Mercedes Antonella\r\n @version 2.0 - 28/08/2026\r\n
 comment1.params=args
 comment1.target=void main(java.lang.String[])
 numComments=2
